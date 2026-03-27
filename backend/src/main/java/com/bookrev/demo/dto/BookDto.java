@@ -11,12 +11,12 @@ import java.util.List;
 @NoArgsConstructor
 public class BookDto {
     private Long bookId;
-    private String bookISBN;
+    private String bookIsbn;
     private String bookTitle;
     private String bookImgUrl;
     private String bookAuthor;
     private String bookGenre;
     private String bookDescription;
-    private Double bookRating;
     private Integer bookPublishYear;
+    private Double bookRating;
 }

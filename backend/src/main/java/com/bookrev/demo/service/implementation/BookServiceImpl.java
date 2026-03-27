@@ -32,6 +32,7 @@ public class BookServiceImpl implements BookService {
     @Override
     public BookDto addBook(BookDto bookDto) {
         Book book = new Book();
+        book.setBookIsbn(bookDto.getBookIsbn());
         book.setBookTitle(bookDto.getBookTitle());
         book.setBookImgUrl(bookDto.getBookImgUrl());
         book.setBookAuthor(bookDto.getBookAuthor());
